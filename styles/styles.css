@@ -33,6 +33,28 @@ nav {
     height: 50px;
 }
 
+.first-column img {
+    background-color: #f0f0f0;
+    height: 223px;
+    width: 100%;
+}
+
+.category-link {
+    background-color: white;
+    bottom: 50%;
+    color: #f72210;
+    font-size: 17px;
+    font-weight: bold;
+    height: 33px;
+    letter-spacing: normal;
+    line-height: 16px;
+    margin: 0 0 5px 0;
+    padding: 8px 15px 8px 5px;
+    position: relative;
+    text-align: start;
+    width: 98px;
+}
+
 .second-column {
     background-color: salmon;
     margin: 0 20px;
@@ -55,3 +77,24 @@ nav {
     padding-bottom: 11px;
     width: 335px;
 }
+
+.title-link {
+    color: black;
+    font-size: 18.5px;
+    font-weight: bold;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.main-columns p {
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    letter-spacing: normal;
+    line-height: 20px;
+    margin: 10px 0;
+    text-align: start;
+}
+
+/* First column */
