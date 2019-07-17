@@ -30,8 +30,8 @@ nav {
 
 /* JUST TO SEE THE COLUMNS */
 .first-column {
-    background-color: aquamarine;
-    height: 50px;
+    /*background-color: aquamarine;*/
+    height: 50px; 
 }
 
 .first-column img {
@@ -57,15 +57,15 @@ nav {
 }
 
 .second-column {
-    background-color: salmon;
+    /*background-color: salmon;*/
     margin: 0 20px;
-    height: 50px;
+    /*height: 50px;*/
 }
 
-.third-column {
+/* .third-column {
     background-color: aqua;
     height: 50px;
-}
+} */
 
 .main-columns h1 {
     color: #030303;
@@ -121,6 +121,32 @@ nav {
     letter-spacing: normal;
     line-height: 20px;
     text-decoration: none;
+}
+
+.opinion {
+    display: flex;
+    flex-direction: row;
+}
+
+.opinion img {
+    margin-right: 10px;
+}
+
+
+.opinion p {
+    color: #555555;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: normal;
+    line-height: 21px;
+    text-align: left;
+}
+
+.line-2 {
+    background-color: lightgray;
+    height: 1px;
+    margin-bottom: 10px;
+    width: 23vw;
 }
 
 /* First column */
