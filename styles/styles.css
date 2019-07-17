@@ -149,4 +149,16 @@ nav {
     width: 23vw;
 }
 
+.news {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    margin-top: 15px;   
+}
+
+.news img {
+    margin-right: 10px;
+}
+
 /* First column */
