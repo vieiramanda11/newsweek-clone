@@ -27,6 +27,7 @@ nav {
     justify-content: center;
 }
 
+
 /* JUST TO SEE THE COLUMNS */
 .first-column {
     background-color: aquamarine;
@@ -95,6 +96,31 @@ nav {
     line-height: 20px;
     margin: 10px 0;
     text-align: start;
+}
+
+.line-1 {
+    width: 40vw;
+    height: 1px;
+    background-color: lightgray;
+}
+
+.container-stories {   
+    display: flex;
+    margin-top: 15px;
+}
+
+.container-stories img {
+    margin-right: 10px;
+    margin-top: 12px;
+}
+
+.title-link-2 {
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: normal;
+    line-height: 20px;
+    text-decoration: none;
 }
 
 /* First column */
