@@ -349,3 +349,12 @@ nav {
     position: relative;
     bottom: 5%;
 }
+
+/* EDITOR'S SECTION */
+
+.line-4 {
+    background-color: lightgray;
+    height: 1px;
+    margin: 0 0px 10px 30px;
+    width: 94vw;
+}
