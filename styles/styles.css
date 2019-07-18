@@ -350,7 +350,7 @@ nav {
     bottom: 5%;
 }
 
-/* NEWS'S SECTION */
+/* EDITOR'S SECTION */
 
 .line-4 {
     background-color: lightgray;
@@ -414,4 +414,21 @@ nav {
 
 .editor-news-row1 {
     margin-bottom: 50px;
+}
+
+/* FEATURE'S SECTION */
+
+.feature-col-1 {
+    background-color: aqua;
+    height: 50px;
+}
+
+.feature-col-2 {
+    background-color: salmon;
+    height: 50px;
+}
+
+.feature-col-3 {
+    background-color: aqua;
+    height: 50px;
 }
