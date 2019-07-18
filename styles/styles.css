@@ -507,3 +507,10 @@ nav {
     margin-bottom: 10px;
     width: 29vw;
 }
+
+.line-7 {
+    background-color: lightgray;
+    height: 2px;
+    margin-bottom: 10px;
+    width: 100vw;   
+}
