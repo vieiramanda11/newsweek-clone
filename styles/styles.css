@@ -557,7 +557,7 @@ nav {
     margin-top: 15px;
 }
 
-.subs-info h3 {
+.subs-info h3, .newsletter-info h3 {
     font-family: "Roboto Condensed";
     font-size: 24px;
     font-weight: bold;
@@ -565,7 +565,7 @@ nav {
     line-height: 28px;
 }
 
-.subs-info p {
+.subs-info p, .newsletter-info p {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 15px;
     letter-spacing: normal;
@@ -573,7 +573,7 @@ nav {
     margin: 40px 0;
 }
 
-.subs-info a {
+.subs-info a, .newsletter-info a {
     background-color: #f72210;
     color: white;
     font-family: "Roboto Condensed";
@@ -582,4 +582,16 @@ nav {
     letter-spacing: normal;
     line-height: 18px;
     padding: 10px 10px 10px 12px;
+}
+
+.subs-newsletter {
+    display: flex;
+    flex-direction: row;
+}
+
+.newsletter-info {
+    border: 1px solid lightgray;
+    height: 301px;
+    padding: 30px;
+    width: 201px;
 }
