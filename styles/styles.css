@@ -9,10 +9,81 @@ body {
 
 /* NAVBAR */
 
-nav {
+.top-nav {
+    align-items: flex-end;
     background-color: #f72210;
+    display: flex;
     height: 90px;
+    justify-content: space-between;
     width: 100vw;
+}
+
+.top-nav p {
+    color: white;
+    font-family: "Roboto Condensed";
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.top-nav img {
+    margin-bottom: 10px;
+}
+
+.btns {
+    margin-bottom: 20px;
+    margin-right: 30px;
+}
+
+.btn-sign {
+    background-color: #f72210;
+    color: white;
+    font-family: "Roboto Condensed";
+    font-size: 18px;
+    font-weight: bold;
+    height: 26px;
+    line-height: 14px;
+    padding: 6px 12px;
+    width: 80px;
+}
+
+.btn-subs {
+    background-color: white;
+    color: #f72210;
+    font-family: "Roboto Condensed";
+    font-size: 18px;
+    font-weight: bold;
+    height: 26px;
+    line-height: 14px;
+    padding: 6px 10px 6px 12px;
+    width: 128px;
+}
+
+.bottom-nav {
+    margin: 20px;
+}
+
+.bottom-nav li {
+    display: inline;
+    margin: 0 22px;
+}
+
+.bottom-nav a {
+    color: black;
+    font-family: "Roboto Condensed";
+    font-size: 21px;
+    font-weight: bold;
+    height: 24px;
+    width: 93px;
+}
+
+.src {
+    color: #333333;
+    font-family: Arial;
+    font-size: 16px;
+}
+
+.fa-search {
+    margin-left: 10px;
 }
 
 /* MAIN SECTION */
