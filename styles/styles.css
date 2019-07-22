@@ -128,10 +128,20 @@ body {
     width: 98px;
 }
 
+.category-link-2 {
+    bottom: 25px;
+    position: relative;
+}
+
 .second-column {
     /*background-color: salmon;*/
     margin: 0 20px;
     /*height: 50px;*/
+}
+
+.top-story {
+    align-items: center;
+    width: 100%;
 }
 
 /* .third-column {
@@ -230,10 +240,23 @@ body {
     flex-direction: row;
     margin-bottom: 10px;
     margin-top: 15px;   
+    width: 100%;
 }
 
 .news img {
+    float: left;
     margin-right: 10px;
+}
+
+.title-link-news {
+    color: black;
+    font-family: "Roboto Condensed";
+    font-size: 17px;
+    font-weight: bold;
+    float: right;
+    letter-spacing: normal;
+    line-height: 20px;
+    text-decoration: none;
 }
 
 .category-link-2 {
@@ -765,3 +788,15 @@ body {
     margin-right: 5px;
     width: 253px;
 }
+
+/* RESPONSIVE DESIGN */
+
+/* @media screen and (max-width: 700px) {
+ 
+    .main-section {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        float: none;
+    } 
+} */
