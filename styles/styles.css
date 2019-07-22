@@ -735,7 +735,7 @@ body {
     width: 666px;
 }
 
-.list-links li, .country-links li {
+.list-links li, .list-links a, .country-links li, .country-links a {
     color: #666666;
     display: inline;
     font-family: Arial, Helvetica, sans-serif;
