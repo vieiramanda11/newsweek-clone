@@ -103,6 +103,8 @@ body {
     margin-left: 10px;
 }
 
+/* SECOND NAVBAR */
+
 .second-navbar {
     align-items: center;
     background-color: red;
@@ -837,4 +839,19 @@ body {
     height: 54px;
     margin-right: 5px;
     width: 253px;
+}
+
+
+/* Media queries */
+
+@media (min-width: 975px) {
+
+}
+
+@media (max-width: 975px) and (min-width: 748px) {
+    
+}
+
+@media (max-width: 748px) {
+
 }
