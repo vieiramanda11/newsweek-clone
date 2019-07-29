@@ -27,7 +27,9 @@ body {
 }
 
 .top-nav img {
+    height: 60px; 
     margin-bottom: 10px;
+    width: 396px;
 }
 
 .btns {
@@ -99,6 +101,40 @@ body {
 
 .fa-search {
     margin-left: 10px;
+}
+
+.second-navbar {
+    align-items: center;
+    background-color: red;
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.second-navbar img {
+    height: 20px;
+    margin-left: 20px;
+    width: 132px;
+}
+
+.btns-2 { 
+    margin-right: 30px;
+}
+
+.btn-1, .btn-2 {
+    position: relative;
+    bottom: 8px;
+}
+
+.fa-bars {
+    color: #333333;
+    cursor: pointer;
+    font-size: 36px;
+    margin-left: 10px;
+    opacity: 0.5;
 }
 
 /* MAIN SECTION */
