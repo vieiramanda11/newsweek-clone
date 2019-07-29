@@ -142,18 +142,16 @@ body {
 /* MAIN SECTION */
 
 .main-container {
-    width: 100%;
+   
 }
 
 .main-columns {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+
 }
 
 /* JUST TO SEE THE COLUMNS */
 .first-column {
     /*background-color: aquamarine;*/
-    height: 50px; 
     margin-top: 20px;
 }
 
@@ -186,9 +184,7 @@ body {
 }
 
 .second-column {
-    /*background-color: salmon;*/
-    margin: 0 20px;
-    /*height: 50px;*/
+
 }
 
 .top-story {
@@ -250,8 +246,10 @@ body {
 }
 
 .container-stories img {
+    height: 90px;
     margin-right: 10px;
     margin-top: 12px;
+    width: 135px;
 }
 
 .title-link-2 {
@@ -270,7 +268,9 @@ body {
 }
 
 .opinion img {
+    height: 63px;
     margin-right: 10px;
+    width: 63px;
 }
 
 
