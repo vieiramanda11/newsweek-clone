@@ -10,6 +10,10 @@ body {
 
 /* NAVBAR */
 
+.first-nav {
+    display: none;
+}
+
 .top-nav {
     align-items: flex-end;
     background-color: #f72210;
@@ -748,10 +752,14 @@ body {
     background-color: lightgray;
     height: 2px;
     margin-bottom: 10px;
-    width: 100vw;   
+    width: 100%;   
 }
 
 /* SUBSCRIBE SECTION */
+
+.subscribe-container {
+    width: 100%;
+}
 
 .subscribe h4 {
     color: #f72210;
@@ -763,6 +771,10 @@ body {
     margin-left: 20px;
 }
 
+.newsletter {
+    width: 100%;
+}
+
 .newsletter h4 {
     color: #f72210;
     font-family: "Roboto Condensed";
@@ -770,6 +782,7 @@ body {
     font-weight: bold;
     letter-spacing: normal;
     line-height: 16px;
+    width: 100%;
 }
 
 .subscribe-magazine {
@@ -779,7 +792,12 @@ body {
     height: 320px;
     margin-left: 20px;
     padding: 30px;
-    width: 806px;
+    width: 100%;
+}
+
+.magazine-covers img {
+    height: 227px;
+    width: 170px;
 }
 
 .cover-2 {
@@ -818,18 +836,25 @@ body {
     letter-spacing: normal;
     line-height: 18px;
     padding: 10px 10px 10px 12px;
+    width: 100%;
 }
 
 .subs-newsletter {
     display: flex;
     flex-direction: row;
+    height: 320px;
+    width: 100%;
+}
+
+.subs-newsletter img {
+    width: 186px;
 }
 
 .newsletter-info {
     border: 1px solid lightgray;
     height: 320px;
-    padding: 30px;
-    width: 201px;
+    padding: 15px;
+    width: 100%;
 }
 
 .line-8 {
@@ -935,7 +960,20 @@ body {
 /* Media queries */
 
 /* Large devices (desktops, 992px and up) */
-@media (max-width: 992px) { 
+
+@media (max-width: 1200px) and (min-width: 976px) {
+    .newsletter-info p {
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+
+    .newsletter-info a {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 992px) {
+     
     .editor-section {
         grid-template-columns: 1fr 1fr;
     }
@@ -947,6 +985,11 @@ body {
     .ed-2, .ed-4 {
         grid-column: 2 / span 1;
     }
+
+    .location-links {
+        display: none;
+    }
+
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -963,7 +1006,6 @@ body {
     .ed-1, .ed-2, .ed-3, .ed-4 {
         grid-column: 1 / span 1;
     }
-
 
  }
 
