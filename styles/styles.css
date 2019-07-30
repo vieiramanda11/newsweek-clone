@@ -637,12 +637,18 @@ body {
     width: 100%;
 }
 
-.feat-1 {
-    margin-left: 20px;
+.column-1, .column-2, .column-3 {
+    width: 100%;
 }
 
-.feat-2 {
-    margin-left: 10px;
+.feat {
+    margin: 10px 20px;
+    width: 100%;
+}
+
+.img-feat {
+    height: 280px;
+    width: 100%;
 }
 
 .logo-num {
@@ -661,6 +667,18 @@ body {
     position: relative;
     text-align: start;
     text-decoration: none;
+}
+
+.slide-title p {
+    color: #333333;
+    font-family: "Roboto Condensed";
+    font-size: 19px;
+    font-weight: bold;
+    letter-spacing: normal;
+    line-height: 19px;
+    margin-left: 10px;
+    margin-top: 5px;
+    text-align: start;
 }
 
 /* SUBJECT SECTION */
