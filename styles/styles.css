@@ -683,6 +683,11 @@ body {
 
 /* SUBJECT SECTION */
 
+.feat-1 img {
+    height: 280px; 
+    width: 100%;
+}
+
 .container-title {
     height: 59px;
     margin-top: 10px;
@@ -696,6 +701,7 @@ body {
     font-weight: bold;
     letter-spacing: normal;
     line-height: 22px;
+    margin-left: 15px;
     text-align: start;
     text-decoration: none;
 }
