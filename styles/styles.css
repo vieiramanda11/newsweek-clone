@@ -332,14 +332,19 @@ body {
 
 /* MAGAZINE SECTION */
 
-.magazine-container {
+.magazine-container, .editor-container {
     margin: 30px;
 }
 
- .in-the-magazine {
+ .in-the-magazine, .editor-section {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 } 
+
+.editor-img {
+    height: 189px;
+    width: 100%;
+}
 
 .article-1 {
     grid-column: 1 / span 1;
@@ -354,6 +359,7 @@ body {
 .article-3 {
     grid-column: 3 / span 1;
     margin: 0 10px 20px 10px;
+    
 }
 
 .article-4 {
@@ -628,7 +634,7 @@ body {
     background-color: lightgray;
     height: 1px;
     margin: 0 10px 10px 30px;
-    width: 95.5vw;
+    width: 100%;
 }
 
 .feat-1 {
@@ -904,19 +910,24 @@ body {
 
 /* Media queries */
 
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
-
- }
-
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
+@media (max-width: 992px) { 
+    .editor-section {
+        grid-template-columns: 1fr 1fr;
+    }
 
+    .ed-1, .ed-3 {
+        grid-column: 1 / span 1;
+    }
+
+    .ed-2, .ed-4 {
+        grid-column: 2 / span 1;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (max-width: 768px) { 
-    .in-the-magazine {
+    .in-the-magazine, .editor-section {
         display: grid;
         grid-template-columns: 1fr;
     }
@@ -924,6 +935,12 @@ body {
     .article-1, .article-2, .article-3, .article-4 {
         grid-column: 1 / span 1;
     }
+
+    .ed-1, .ed-2, .ed-3, .ed-4 {
+        grid-column: 1 / span 1;
+    }
+
+
  }
 
 /* Small devices (landscape phones, 576px and up) */
