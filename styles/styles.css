@@ -143,20 +143,13 @@ body {
     opacity: 0.5;
 }
 
-/* MAIN SECTION */
-
- /*.main-container {
-   
-} */
 
 .main-columns {
     display: flex;
     justify-content: center;
 }
 
-/* JUST TO SEE THE COLUMNS */
 .first-column {
-    /*background-color: aquamarine;*/
     margin-top: 60px;
 }
 
@@ -501,11 +494,6 @@ body {
     position: relative;
     width: 100px;
 }
-
-/*.mgz-content {
-    display: flex;
-    flex-direction: column;
-}*/
 
 .subtitle {
     display: flex;
@@ -959,8 +947,6 @@ body {
 
 /* Media queries */
 
-/* Large devices (desktops, 992px and up) */
-
 @media (max-width: 1200px) and (min-width: 976px) {
     .newsletter-info p {
         font-size: 10px;
@@ -971,6 +957,8 @@ body {
         font-size: 13px;
     }
 }
+
+/* Large devices (desktops, 992px and up) */
 
 @media (max-width: 992px) {
      
